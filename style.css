@@ -1,0 +1,74 @@
+
+.Sec1{
+    display: flex;
+    flex-wrap: wrap;
+}
+section div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 49.6%;
+    margin: 0.2%;
+}
+.Div1{
+    background-color: rgb(26, 188, 156);
+    height: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.Div1 h1{
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Div1 h1:hover{
+    
+}
+.Div2{
+    background-color: rgb(52, 152, 219);
+    height: 500px;
+}
+.Div3{
+    background-color: rgb(155, 89, 182);
+    height: 500px;
+}
+.Div4{
+    background-color: rgb(230, 126, 34);
+    height: 500px;
+}
+.Div5{
+    background-color: rgb(231, 76, 60);
+    height: 500px;
+}
+.Div6{
+    background-color: rgb(26, 188, 156);
+    height: 500px;
+}
+.Div7{
+    background-color: rgb(52, 152, 219);
+    height: 500px;
+}
+.Div8{
+    background-color: rgb(155, 89, 182);
+    height: 500px;
+}
+.Div9{
+    background-color: rgb(230, 126, 34);
+    height: 500px;
+}
+
+span{
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 50%; 
+    display: block; 
+    font-size: 48px; 
+    height: auto;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+@media(max-width:600px){
+    section div{
+      height: 300px;
+      width: 100%;
+    }
+}
